@@ -2,13 +2,10 @@
 version: '3'
 services:
   jupyterlab:
-    # 今回はこのall-spark-notebook:latestイメージを利用する。
-    # JupyterLabが既にインストール済。
     # pipで何か追加したい場合などはDockerfileを書く。
     image: gboeing/osmnx:latest
     container_name: jupyter_osmnx
     user: root
-    # URLに書いてある設定を読んで以下のenvironmentを書く。
     environment:
       NB_UID: 1000
       NB_GID: 100

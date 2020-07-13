@@ -12,8 +12,8 @@ services:
       GRANT_SUDO: "yes"
     # コンテナの/jobyan/work以下をホストの./notebookにおいてデータ永続化する。
     volumes:
-       - "./notebook:/home/jovyan/work"
-       - "./data:/home/jovyan/data"
+       - "./notebook:/home/jovyan/work/notebook"
+       - "./data:/home/jovyan/work/data"
     privileged: true
     # (ホストポート:コンテナポート)
     ports:

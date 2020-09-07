@@ -21,4 +21,4 @@ services:
     restart: unless-stopped
     # パスワード設定などとりあえずめんどくさいのでtokenを空にしてすぐ使えるようにする。
     # (起動テスト用なので実際にはパスワードなどを設定してください)
-    #command: start.sh jupyter lab --NotebookApp.token=''
+    command: start.sh jupyter lab --NotebookApp.token=''

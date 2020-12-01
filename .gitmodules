@@ -1,3 +1,9 @@
 [submodule "notebook/auto_gis/exercise-1-mopinfish"]
 	path = notebook/auto_gis/exercise-1-mopinfish
 	url = git@github.com:AutoGIS-2019/exercise-1-mopinfish.git
+[submodule "notebook/others/auto_gis"]
+	path = notebook/others/auto_gis
+	url = git@github.com:Automating-GIS-processes/notebooks.git
+[submodule "notebook/others/auto_gis_2020"]
+	path = notebook/others/auto_gis_2020
+	url = git@github.com:mopinfish/notebooks.git

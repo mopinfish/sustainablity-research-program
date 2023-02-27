@@ -7,3 +7,6 @@
 [submodule "notebook/others/auto_gis_2020"]
 	path = notebook/others/auto_gis_2020
 	url = git@github.com:mopinfish/notebooks.git
+[submodule "notebook/others/osmnx-examples"]
+	path = notebook/others/osmnx-examples
+	url = git@github.com:gboeing/osmnx-examples.git
